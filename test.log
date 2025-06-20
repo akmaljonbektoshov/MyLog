@@ -1,0 +1,18 @@
+File file = new File("C:/Users/99890/PDP_projects/untitled/myLog.log");
+        File file2 = new File("C:/Users/99890/PDP_projects/untitled/test.log");
+
+
+        BufferedReader reader = new BufferedReader(new FileReader(file));
+
+        BufferedWriter writer = new BufferedWriter(new FileWriter(file, true));
+
+        System.out.print("Enter text: ");
+        writer.write(strSc.nextLine());
+        System.out.print("Enter text: ");
+        writer.write(strSc.nextLine());
+        System.out.print("Enter text: ");
+        writer.write(strSc.nextLine());
+        System.out.print("Enter text: ");
+        writer.write(strSc.nextLine());
+
+        writer.close();
